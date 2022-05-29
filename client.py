@@ -101,3 +101,10 @@ class Client():
         :param address:  Адрес клиента
         """
         self.__address = address
+
+
+if __name__ == '__main__':
+    print("""
+    этот файл не является исполняемым, 
+    и содержит описание класса Client
+    """)
