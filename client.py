@@ -70,16 +70,34 @@ class Client():
         return self.__surname
 
     def set_surname(self, surname):
+        """
+        Устанавливает значение атрибута surname
+        :param surname:             Фамилия клиента
+        """
         self.__surname = surname
 
     def get_phone(self):
+        """
+        Возращаяет значение атрибута phone Телефон клиента
+        """
         return self.__phone
 
     def set_phone(self, phone):
+        """
+        Устанавливает значение атрибута phone Телефон клиента
+        :param phone: Телефон клиента
+        """
         self.__phone = phone
 
     def get_address(self):
+        """
+        Возвращает значение атрибута address Адрес клиента
+        """
         return self.__address
 
     def set_address(self, address):
+        """
+        Устанавливает значение атрибута address Адрес клиента
+        :param address:  Адрес клиента
+        """
         self.__address = address
